@@ -1,6 +1,6 @@
 provider "aws" {
-     access_key = "${AWS_ACCESS_KEY_ID}"
-     secret_key = "${AWS_SECRET_KEY}"
+     access_key = "AKIAIGKRAHP3727E2A7Q"
+     secret_key = "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"
      region = "us-east-2"
  }
  resource "aws_instance" "testEC2" {
