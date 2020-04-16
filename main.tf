@@ -25,6 +25,7 @@ provider "aws" {
          Name = "testEC2"
      }
  }
+
  output "public_ip_of_testEC2" {
    value = "${aws_instance.testEC2.public_ip}"
  }
